@@ -1,0 +1,20 @@
+.title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #5B7065;
+}
+.languages__wrapper {
+    margin-top: 50px;
+}
+.languages__container {
+    display: flex;
+    justify-content:space-around;
+}
+.language {
+    font-size: 1.5em;
+}
+@media (max-width: 675px) {
+    .languages__container {
+        flex-direction: column;
+    }
+}

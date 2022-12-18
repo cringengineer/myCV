@@ -1,0 +1,36 @@
+.title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #5B7065;
+}
+
+.skills__wrapper {
+    margin-top: 50px;
+}
+
+.skills__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+}
+.skill:before {
+    content: '<';
+    color: #5B7065;
+}
+.skill:after {
+    content: '/>';
+    color: #5B7065;
+}
+
+
+@media (max-width: 920px) {
+    .skills__container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (max-width: 675px) {
+    .skills__container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
