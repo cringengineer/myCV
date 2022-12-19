@@ -12,7 +12,7 @@ const Profile: FC = () => {
             <div className={style.photo__wrapper}>
                 <img className={style.photo} src={photo} alt={'my photo'}></img>
             </div>
-            <h1 className={style.name}>Vyacheslav Lysenkov</h1>
+            <h1 className={style.name}>Vyacheslav Lysenkov, 20</h1>
             <p className={style.subtitle}>Frontend developer</p>
             <ul className={style.links__container}>
                 <li className={style.link__git}><a href={'https://github.com/cringengineer'} className={style.link}><img
@@ -31,7 +31,7 @@ const Profile: FC = () => {
             </ul>
             <div id='profile' className={style.profile__container}>
                 <h2 className={style.title}>Profile:</h2>
-                <p className={style.text}>My name is Vyacheslav and I'm 20. I started my path in web development in the summer of 2021. When I completed
+                <p className={style.text}>I started my path in web development in the summer of 2021. When I completed
                     the RS School courses, I could say with confidence that they provided the necessary solid
                     theoretical and practical base.
                 </p>
