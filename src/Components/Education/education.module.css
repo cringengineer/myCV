@@ -9,3 +9,11 @@
 .item {
     margin-top: 20px;
 }
+.src__link {
+    color: aliceblue;
+}
+.text__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+}

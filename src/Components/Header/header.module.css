@@ -54,9 +54,9 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 890px) {
     .header__container {
-        height: 0px;
+        height: 0;
     }
     .nav__menu {
         display: none;

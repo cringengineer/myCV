@@ -24,8 +24,8 @@ p {
 }
 @media (max-width: 890px) {
     .wrapper {
-        max-width: 100vw;
-        width: 100vw;
+        max-width: 90vw;
+        width: 90vw;
         margin: 0 auto;
     }
 }

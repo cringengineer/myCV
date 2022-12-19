@@ -2,7 +2,6 @@ import React from 'react';
 import style from './projets.module.css';
 import pokedex from './../../img/pokedex.png';
 import shelter from './../../img/shelter.png';
-import mem from './../../img/mem.png';
 import weather from './../../img/weather.png';
 import recipe from './../../img/recipe.png';
 import note from './../../img/notes.png';
@@ -21,45 +20,38 @@ const Projects = () => {
         {
             name: 'Pokedex',
             link: 'https://cringengineer.github.io/pokedex/',
-            description: 'In this project I  wrote search, filtering and popup.',
+            description: 'Key stack technologies: HTML/CSS, JS.',
             photo: pokedex,
             id:1
         },
         {
             name: 'Shelter',
             link: 'https://rolling-scopes-school.github.io/cringengineer-JSFE2022Q1/shelter/pages/main/index.html',
-            description: 'Layout example.This project is a two-page website with an adaptive layout.',
+            description: 'Key stack technologies: HTML/CSS.',
             photo: shelter,
             id:2
         },
         {
-            name: 'CSS-mem-slider',
-            link: 'https://cringengineer.github.io/cssMemSlider/cssMemSlider/index.html',
-            description: 'In this project, I created a slider in pure CSS without using JS.',
-            photo: mem,
-            id:3
-        },
-        {
             name: 'Weather forecast',
             link: 'https://cringengineer-weather.netlify.app/',
-            description: 'In this project I created a weather forecast on React Hooks.',
+            description: 'Key stack technologies: HTML/CSS, React, React hooks.',
             photo: weather,
             id:4
         },
         {
+            name: 'Recipes book',
+            link: 'https://cringengineer-recipe-book.netlify.app/',
+            description: 'Key stack technologies: HTML/CSS, React, Redux, React-Redux, Redux-thunk.',
+            photo: recipe,
+            id:6
+        },
+        {
             name: 'Notes',
             link: 'https://startling-stroopwafel-7d2f59.netlify.app/',
-            description: 'Application for notes. In it you can create, edit, delete notes. The functionality is still in progress.',
+            description: 'Key stack technologies: HTML/CSS, React, SCSS, TS. The functionality is still in progress.',
             photo: note,
             id:5
         },
-        {
-            name: 'Recipes book',
-            link: 'https://cringengineer-recipe-book.netlify.app/',
-            description: 'You can view recipes, add them to favorites, and also search for recipes by ingredients.',
-            photo: recipe,
-            id:6
-        }
     ]
 
     return (
@@ -73,7 +65,7 @@ const Projects = () => {
                             <p className={style.project__name}>{item.name}</p>
                             <p className={style.description}>{item.description}</p>
                         </div>
-                        <img className={style.project__img} alt={'photo'} src={item.photo}></img>
+                        <img className={style.project__img} alt={'project photo'} src={item.photo}></img>
                     </a>
                 </div>
             })}
