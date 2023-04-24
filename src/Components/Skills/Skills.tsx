@@ -2,7 +2,7 @@ import React, {FC} from 'react';
 import style from './skills.module.css';
 
 const Skills: FC = () => {
-    const mySkills:Array<string> = ['HTML/CSS','SASS/LESS','JS','Webpack','TypeScript','React','Redux','Redux','Redux-thunk','Git','Figma','REST-API']
+    const mySkills:Array<string> = ['HTML/CSS','SASS/LESS','JS','Webpack','TypeScript','React','Redux','Redux-thunk','Git','Figma','REST-API', 'Next.js', 'Storybook', 'Styled components', 'Websocket']
 
     return (
         <div id={'skills'} className={style.skills__wrapper}>
